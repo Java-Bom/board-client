@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Cards</title>
+  <title>Clean Code - Content-input2</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Clean Code</div>
       </a>
 
       <!-- Divider -->
@@ -161,7 +161,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Cards</h1>
+            <h1 class="h3 mb-0 text-gray-800">Cards2 modify or create</h1>
           </div>
 
           <div class="row">
@@ -169,12 +169,36 @@
             <div class="col-lg-12">
 
               <!-- Basic Card Example -->
-              <div class="card shadow mb-4">
+              <div class="card h-500 shadow mb-4" style="min-height: 25rem;">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
+                  <div class="row align-items-center">
+                    <div class="input-group mb-0 col-6">
+                      <input height="20rem" type="text" value ="title1" class="form-control" placeholder="Input Title" aria-label="Input Title" aria-describedby="basic-addon2">
+                    </div>
+                    <div class="col-2 mb-0"><span class ="align-middle"><h6 class="m-0 font-weight-bold text-primary "></span>| user2</h6></div>
+                    <div class="col-2 mb-0"><span class ="align-middle"><h6 class="m-0 font-weight-bold text-primary "></span>| 2011/04/25</h6></div>
+                    <div class="col-2 mb-0"><span class ="align-middle"><h6 class="m-0 font-weight-bold text-primary "></span>| 2011/04/26</h6></div>
+                  </div>
                 </div>
+                
                 <div class="card-body">
-                  The styling for this basic card example is created by using default Bootstrap utility classes. By using utility classes, the style of the card component can be easily modified with no need for any custom CSS!
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group shadow-textarea">
+                          <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here...">The styling for this basic card example is created by using default Bootstrap utility classes. By using utility classes, the style of the card component can be easily modified with no need for any custom CSS!</textarea>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row justify-content-end">
+                      <a href="cards1.html" class="btn btn-primary btn-icon-split col-1">
+                        <span class="icon text-white-50">
+                          <i class="fas fa-arrow-right"></i>
+                        </span>
+                        <span class="text">write</span>
+                      </a>
+                  </div>
+              
                 </div>
               </div>
 
@@ -192,7 +216,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+              <span>Copyright &copy; clean code study - mj</span>
           </div>
         </div>
       </footer>
