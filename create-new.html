@@ -9,18 +9,14 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Code - main list</title>
-
-  <!-- Custom fonts for this template -->
+  <title>Clean Code - create-new</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
   <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this page -->
-  <!-- <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
 
 </head>
 
@@ -96,6 +92,7 @@
       <!-- Main Content -->
       <div id="content">
 
+       
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
@@ -159,166 +156,56 @@
         </nav>
         <!-- End of Topbar -->
 
-
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <h1 class="h3 mb-0 text-gray-800">create new</h1>
           </div>
 
-          <!-- DataTales Example -->
-          <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <div class="row">
-                <a href="content-input2.html" class="btn btn-primary btn-icon-split">
-                  <span class="icon text-white-50">
-                    <i class="fas fa-arrow-right"></i>
-                  </span>
-                  <span class="text">createNew</span>
-                </a>
+          <div class="row">
+
+            <div class="col-lg-12">
+
+              <!-- Basic Card Example -->
+              <div class="card h-500 shadow mb-4" style="min-height: 25rem;">
+                <div class="card-header py-3">
+                  <div class="row align-items-center">
+                    <div class="input-group mb-0 col-6">
+                      <input height="20rem" type="text" class="form-control" placeholder="Input Title" aria-label="Input Title" aria-describedby="basic-addon2">
+                    </div>
+                    <div class="col-2 mb-0"><span class ="align-middle"><h6 class="m-0 font-weight-bold text-primary "></span>| me</h6></div>
+                    <div class="col-2 mb-0"><span class ="align-middle"><h6 class="m-0 font-weight-bold text-primary "></span>| 2011/04/25</h6></div>
+                    <div class="col-2 mb-0"><span class ="align-middle"><h6 class="m-0 font-weight-bold text-primary "></span>| 2011/04/26</h6></div>
+                  </div>
+                </div>
+                
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group shadow-textarea">
+                          <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row justify-content-end">
+                      <a href="cards1.html" class="btn btn-primary btn-icon-split col-1">
+                        <span class="icon text-white-50">
+                          <i class="fas fa-arrow-right"></i>
+                        </span>
+                        <span class="text">write</span>
+                      </a>
+                  </div>
+              
+                </div>
               </div>
+
             </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>Title</th>
-                      <th>author</th>
-                      <th>Register date</th>
-                      <th>update date</th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <th>No</th>
-                      <th>Title</th>
-                      <th>author</th>
-                      <th>Register date</th>
-                      <th>update date</th>
-                      <th></th>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Title1</td>
-                      <td>user1</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="cards1.html" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Title2</td>
-                      <td>user2</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="cards2.html" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Title3</td>
-                      <td>user3</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Title4</td>
-                      <td>user4</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Title5</td>
-                      <td>user5</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Title6</td>
-                      <td>user6</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>Title7</td>
-                      <td>user7</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>8</td>
-                      <td>Title8</td>
-                      <td>user8</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>9</td>
-                      <td>Title9</td>
-                      <td>user9</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>10</td>
-                      <td>Title10</td>
-                      <td>user10</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>11</td>
-                      <td>Title11</td>
-                      <td>user11</td>
-                      <td>2011/04/25</td>
-                      <td>2011/04/26</td>
-                      <td><a href="#" class="btn btn-info btn-circle btn-sm">
-                        <i class="fas fa-info-circle"></i>
-                      </a></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
+
           </div>
+
         </div>
         <!-- /.container-fluid -->
 
@@ -329,7 +216,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+              <span>Copyright &copy; clean code study - mj</span>
           </div>
         </div>
       </footer>
@@ -374,13 +261,6 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
-
-  <!-- Page level plugins -->
-  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
